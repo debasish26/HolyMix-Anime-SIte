@@ -7,11 +7,8 @@ const recommendationsapi = "/recommendations/";
 // Api Server Manager
 
 const AvailableServers = [
-    "https://api1.anime-dex.workers.dev",
-    "https://api2.anime-dex.workers.dev",
-    "https://api3.anime-dex.workers.dev",
+    "https://api.mahantad024.workers.dev/",
 ];
-
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
 }
