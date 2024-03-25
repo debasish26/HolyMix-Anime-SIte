@@ -7,7 +7,7 @@ const recentapi = "/recent/";
 // Api Server Manager
 
 const AvailableServers = [
-    "https://dgfdgf.cpm/",
+    "https://api.mahantad024.workers.dev",
 ];
 
 function getApiServer() {
